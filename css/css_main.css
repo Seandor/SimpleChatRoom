@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	font-size: 10pt;
+}
+h3 {
+	margin: 0;
+}
+#div_main {
+	border: 5px solid #ccc;
+}
+#div_main .div_top {
+	padding: 5px;
+	overflow: hidden;
+}
+#div_main .div_top .leftdiv {
+	width: 78%;
+	float: left;
+}
+#div_main .div_top .rightdiv {
+	width: 20%;
+	float: left;
+}
+.div_show
+{
+	border:solid 1px #ccc;
+	height:300px;
+	padding:5px;
+	font-size:12px;
+	overflow-y:scroll;
+}
+.div_bot {
+	clear: left;
+	padding: 10px;
+}
+.div_bot .pb {
+	padding-bottom: 3px;
+}
+.div_bot .pl {
+	padding-left: 12px;
+}
+.div_bot .pt {
+	padding-left: 3px;
+	color: #555;
+}
+.cls_tip {
+	position:absolute;
+    width:160px;
+    text-align:center;
+    font-size:13px;
+    border:solid 1px #cc3300;
+    margin-top:5px;
+    padding:2px;
+    margin-bottom:5px;
+    background-color:#ffe0a3;
+    display:none;
+}
+.btn {
+	border:#666 1px solid;
+	padding:2px;
+	width:135px;
+	height:54px; 
+	font-size:16px;
+}

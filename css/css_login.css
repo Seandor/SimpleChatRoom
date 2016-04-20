@@ -1,3 +1,43 @@
-* {
-	background: black;
+body {
+	padding: 0;
+	font-size: 10pt;
+}
+
+#div_login {
+	display: block;
+	width: 250px;
+	margin: 10% auto;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 8px #ccc;
+	padding: 0;
+}
+#div_login h3 {
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 11pt;
+	font-weight: bold;
+	color: white;
+	background: #e4393c;
+	padding-left: 20px;
+	margin: 0;
+}
+.input_wrapper {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.btn_center {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	text-align: center;
+	padding-right: 20px;
+}
+#login_btn {
+	margin-right: 20px;
+}
+.btn {
+	border:#666 1px solid;
+	width:50px;
 }
